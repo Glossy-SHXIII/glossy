@@ -1,0 +1,12 @@
+[submodule "capture"]
+	path = capture
+	url = https://github.com/Glossy-SHXIII/capture
+[submodule "server"]
+	path = server
+	url = https://github.com/Glossy-SHXIII/server
+[submodule "agent"]
+	path = agent
+	url = https://github.com/Glossy-SHXIII/agent
+[submodule "llm"]
+	path = llm
+	url = https://github.com/Glossy-SHXIII/docker-llama.cpp
