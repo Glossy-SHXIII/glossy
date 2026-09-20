@@ -1,0 +1,6 @@
+hosts.toml
+*.env
+.env*
+*.key
+*.pem
+__pycache__/

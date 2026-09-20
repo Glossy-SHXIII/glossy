@@ -1,0 +1,14 @@
+# Managed Linux hosts. add-host.sh appends entries here; the real connection
+# settings live in ~/.ssh/config, which is what linux-mcp-server reads.
+# `name` is what you pass as host="..." in MCP tool calls.
+
+# [[hosts]]
+# name = "web1"
+# address = "admin@10.0.0.64:22"
+# description = "nginx front end (same LAN)"
+
+# [[hosts]]
+# name = "db1"
+# address = "postgres@10.1.0.5:22"
+# jump = "admin@bastion.example.com"   # different network, reached via bastion
+# description = "postgres primary"
